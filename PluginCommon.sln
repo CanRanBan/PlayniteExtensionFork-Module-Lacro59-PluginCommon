@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1300
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonPluginsControls", "CommonPluginsControls\CommonPluginsControls.csproj", "{9ACFA07B-718C-4546-AC27-A9FCE42F61F7}"
 EndProject
@@ -22,16 +22,21 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		ReleasePack|Any CPU = ReleasePack|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9ACFA07B-718C-4546-AC27-A9FCE42F61F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9ACFA07B-718C-4546-AC27-A9FCE42F61F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9ACFA07B-718C-4546-AC27-A9FCE42F61F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9ACFA07B-718C-4546-AC27-A9FCE42F61F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ACFA07B-718C-4546-AC27-A9FCE42F61F7}.ReleasePack|Any CPU.ActiveCfg = ReleasePack|Any CPU
+		{9ACFA07B-718C-4546-AC27-A9FCE42F61F7}.ReleasePack|Any CPU.Build.0 = ReleasePack|Any CPU
 		{4EFFE926-9C64-4750-A399-F344710EDC09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4EFFE926-9C64-4750-A399-F344710EDC09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EFFE926-9C64-4750-A399-F344710EDC09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EFFE926-9C64-4750-A399-F344710EDC09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EFFE926-9C64-4750-A399-F344710EDC09}.ReleasePack|Any CPU.ActiveCfg = ReleasePack|Any CPU
+		{4EFFE926-9C64-4750-A399-F344710EDC09}.ReleasePack|Any CPU.Build.0 = ReleasePack|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
