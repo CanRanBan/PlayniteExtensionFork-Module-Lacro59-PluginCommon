@@ -42,20 +42,16 @@
   <ItemGroup>
     <Reference Include="akr.WPF.Controls.ColorPicker, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>Resources\akr.WPF.Controls.ColorPicker.dll</HintPath>
+      <HintPath>..\CommonPluginsResources\Resources\akr.WPF.Controls.ColorPicker.dll</HintPath>
     </Reference>
     <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
-      <Aliases>global</Aliases>
-      <Private>False</Private>
+      <HintPath>..\packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
     </Reference>
     <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
-      <Aliases>global</Aliases>
-      <Private>False</Private>
+      <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
     </Reference>
-    <Reference Include="Playnite.SDK, Version=6.2.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\PlayniteSDK.6.2.2\lib\net462\Playnite.SDK.dll</HintPath>
+    <Reference Include="Playnite.SDK, Version=6.9.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PlayniteSDK.6.9.0\lib\net462\Playnite.SDK.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
@@ -228,5 +224,7 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
+  <Import Project="..\CommonPluginsShared\CommonPluginsShared.projitems" Label="Shared" />
+  <Import Project="..\CommonPlayniteShared\CommonPlayniteShared.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -17,6 +17,8 @@ Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		CommonPlayniteShared\CommonPlayniteShared.projitems*{0d7dbc82-26af-49ad-8ed5-0e11aa56bce0}*SharedItemsImports = 13
 		CommonPluginsShared\CommonPluginsShared.projitems*{27e5d35b-f3ce-4a3f-9705-4564674615a5}*SharedItemsImports = 13
+		CommonPlayniteShared\CommonPlayniteShared.projitems*{9acfa07b-718c-4546-ac27-a9fce42f61f7}*SharedItemsImports = 4
+		CommonPluginsShared\CommonPluginsShared.projitems*{9acfa07b-718c-4546-ac27-a9fce42f61f7}*SharedItemsImports = 4
 		CommonPluginsStores\CommonPluginsStores.projitems*{c066f255-3bfa-4862-a490-09d7933647d4}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
